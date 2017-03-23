@@ -8,9 +8,18 @@
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <html>
 <head>
-    <title>登录成功</title>
+    <title>登录成功了</title>
 </head>
 <body>
-<p>登录成功</p>
+<table>
+    <tr>
+        <th>名字</th>
+        <td>${name}</td>
+    </tr>
+    <tr>
+        <th>密码</th>
+        <td>${password}</td>
+    </tr>
+</table>
 </body>
 </html>

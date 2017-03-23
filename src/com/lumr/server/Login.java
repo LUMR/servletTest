@@ -26,7 +26,7 @@ public class Login extends HttpServlet {
         password = req.getParameter("password");
         if (name.equals("我的天")&&password.equals("abc")) {
             req.getSession().setAttribute("user","yes");
-            resp.sendRedirect("ok.jsp");
+            resp.sendRedirect("mess.jsp");
         }
         else {
             System.out.println(name);

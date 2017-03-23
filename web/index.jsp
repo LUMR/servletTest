@@ -7,16 +7,18 @@
 --%>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <html>
-  <head>
+<head>
     <title>$Title$</title>
-  </head>
-  <body>
-  <form action="login" method="post">
+    <script src="js/js.js"></script>
+</head>
+<body>
+<form action="login" method="post">
     name:<input name="name" type="text"><br>
     password:<input type="password" name="password">
     <hr>
+    <input type="button" value="test" onclick="check()">
     <input type="submit" value="go">
-
-  </form>
-  </body>
+</form>
+<div id="result"></div>
+</body>
 </html>
